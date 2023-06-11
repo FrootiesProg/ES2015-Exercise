@@ -1,0 +1,17 @@
+What is the difference between var and let?
+'Let' is block scoped which means it is only accessible within the block where it is declared.
+'Var' is a function scoped which means it is accesible throughout the entire function where it is declared regardless of the block scoped variable.*/
+
+What is the difference between var and const?
+'Const' allows you to declared a variable with a constant, unchangeable value and once it is declared it cannot be reassigined or changed like 'let'.
+'Var' allows you to declare a variable and reassigin variables and can be changed throughout the entire function.
+
+What is the difference between let and const?
+'Const' allows you to declare a variable that cannot be reassigined and once it is declared.
+'Let' allows you to declare a variables with a new value and once it is declared.
+
+What is hoisting?
+Hoisting is a JS behavior where variable and function declarations are moved to the top of their respective scopes during the compilation phase. 
+This means that you can use variables or functions before they are actually declared. However, only the declarations are hoisted not the ininitalization.
+If you try to access the value of a variable before it is declared you will get an error.
+Function declarations are hoisted entirely, allowing you to call functions even before their actual declaration in the code.
